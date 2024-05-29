@@ -163,19 +163,3 @@ $ grep -i 'text' file.txt
 ```bash
 $ grep -r 'text' directory
 ```
-
-### find
-
-디렉토리 내부의 파일을 검색하는 명령어
-
-```bash
-$ find directory
-```
-
-### find -name
-
-특정 이름의 파일을 검색하는 명령어
-
-```bash
-$ find directory -name file.txt
-```
