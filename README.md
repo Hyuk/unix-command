@@ -99,3 +99,83 @@ $ rm -rf directory
 ```bash
 $ mkdir directory
 ```
+
+### wc
+
+파일의 라인 수, 단어 수, 문자 수를 출력하는 명령어
+
+```bash
+$ wc file.txt
+```
+
+### wc -w
+
+파일의 단어 수를 출력하는 명령어
+
+```bash
+$ wc -w file.txt
+```
+
+### wc -l
+
+파일의 라인 수를 출력하는 명령어
+
+```bash
+$ wc -l file.txt
+```
+
+### wc -c
+
+파일의 문자 수를 출력하는 명령어
+
+```bash
+$ wc -c file.txt
+```
+
+### grep
+
+파일에서 특정 문자열을 검색하는 명령어, 대소문자 구별한다 (Case Sensitive)
+
+```bash
+$ grep 'text' file.txt
+```
+
+### grep -v
+
+파일에서 특정 문자열을 제외하고 검색하는 명령어
+
+```bash
+$ grep -v 'text' file.txt
+```
+
+### grep -i
+
+대소문자 구분 없이 검색하는 명령어
+
+```bash
+$ grep -i 'text' file.txt
+```
+
+### grep -r
+
+디렉토리 내부의 파일에서 특정 문자열을 검색하는 명령어
+
+```bash
+$ grep -r 'text' directory
+```
+
+### find
+
+디렉토리 내부의 파일을 검색하는 명령어
+
+```bash
+$ find directory
+```
+
+### find -name
+
+특정 이름의 파일을 검색하는 명령어
+
+```bash
+$ find directory -name file.txt
+```
